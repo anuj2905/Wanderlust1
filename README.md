@@ -133,9 +133,4 @@ node_modules/
 npm install
 
 7️⃣ Start the Server
-npx nodemon
-
-
-OR
-
-node app.js
+npx nodemon OR node app.js
