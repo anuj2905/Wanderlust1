@@ -141,14 +141,3 @@ npx nodemon
 OR
 
 node app.js
-
-📜 License
-
-This project is licensed under the MIT License.
-
-📬 Contact
-
-Anuj Patil
-📧 anujpatil1729@gmail.com
-
-🔗 GitHub: https://github.com/anuj2905
