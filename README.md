@@ -1,12 +1,11 @@
-✈️ AEROVIA – Travel & Exploration Platform
+🌍 Wanderlust – Travel & Exploration Platform
 
-AEROVIA is a comprehensive travel platform designed for adventurers and explorers who want to discover, share, and review extraordinary places around the world. Built using the MERN stack (MongoDB, Express, React, Node.js), AEROVIA delivers a seamless, secure, and interactive experience for both casual travelers and serious wanderers.
+Wanderlust is a comprehensive travel platform designed for adventurers and explorers who want to discover, share, and review extraordinary places around the world. Built using the MERN stack (MongoDB, Express, React, Node.js), Wanderlust delivers a seamless, secure, and interactive experience for both casual travelers and serious wanderers.
 
-🌍 Live Demo:
+🔗 GitHub Repository:
 👉 https://github.com/anuj2905/Wanderlust
 
 🚀 Features
-
 ✨ Create & Manage Listings
 
 Add new travel destinations with rich descriptions and images
@@ -36,18 +35,17 @@ Visualize locations with Mapbox to plan trips effortlessly
 🧑‍💻 Tech Stack
 
 Frontend: React, EJS
-
 Backend: Node.js, Express.js
-
 Database: MongoDB (Atlas / Local)
-
 Authentication: Passport.js
-
 Maps: Mapbox
-
 Image Hosting: Cloudinary
 
 📚 Table of Contents
+
+Features
+
+Tech Stack
 
 How to Contribute
 
@@ -55,17 +53,17 @@ Local Setup Guide
 
 Environment Variables
 
-Contributors
+License
 
 Contact
 
 🤝 How to Contribute
 
-We welcome contributions to improve AEROVIA 🚀
+We welcome contributions to improve Wanderlust 🚀
 
 1️⃣ Fork the Repository
 
-Go to the AEROVIA GitHub repository
+Go to the Wanderlust GitHub repository
 
 Click Fork (top-right corner)
 
@@ -78,7 +76,11 @@ git checkout -b feature/your-feature-name
 
 4️⃣ Make Your Changes
 
-Add features, fix bugs, or improve documentation
+Add features
+
+Fix bugs
+
+Improve documentation
 
 5️⃣ Commit Changes
 git add .
@@ -112,7 +114,7 @@ API Secret
 
 4️⃣ Create .env File
 
-In the root directory:
+Create a .env file in the root directory and add:
 
 MAP_TOKEN=your-mapbox-access-token
 ATLAS_DB_TOKEN=mongodb://127.0.0.1:27017/wanderlust
@@ -124,7 +126,7 @@ PORT=8080
 
 5️⃣ Add .gitignore (Important)
 
-Make sure .gitignore includes:
+Ensure .gitignore includes:
 
 node_modules/
 .env
@@ -133,4 +135,20 @@ node_modules/
 npm install
 
 7️⃣ Start the Server
-npx nodemon OR node app.js
+npx nodemon
+
+
+OR
+
+node app.js
+
+📜 License
+
+This project is licensed under the MIT License.
+
+📬 Contact
+
+Anuj Patil
+📧 anujpatil1729@gmail.com
+
+🔗 GitHub: https://github.com/anuj2905
