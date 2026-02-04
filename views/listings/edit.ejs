@@ -23,12 +23,19 @@
       <h3 class="mb-4">Edit Your Listing</h3>
 
       <!-- Category -->
-      <label for="category" class="form-label">Category</label>
-      <select class="form-select mb-3" name="listing[category]" required>
-  <option selected disabled value="">Select a category</option>
-  <option value="Beach" <%= listing.category === 'Beach' ? 'selected' : '' %>>Beach</option>
-  <option value="Mountains" <%= listing.category === 'Mountains' ? 'selected' : '' %>>Mountains</option>
-  <option value="City" <%= listing.category === 'City' ? 'selected' : '' %>>City</option>
+     <div class="mb-3">
+  <label for="category" class="form-label">Category</label>
+  <select class="form-select" name="listing[category]" required>
+    <option disabled value="">Select a category</option>
+    <option value="Beach" <%= listing.category === 'Beach' ? 'selected' : '' %>>Beach</option>
+    <option value="Mountains" <%= listing.category === 'Mountains' ? 'selected' : '' %>>Mountains</option>
+    <option value="City" <%= listing.category === 'City' ? 'selected' : '' %>>City</option>
+    <option value="Desert" <%= listing.category === 'Desert' ? 'selected' : '' %>>Desert</option>
+    <option value="Village" <%= listing.category === 'Village' ? 'selected' : '' %>>Village</option>
+  </select>
+  <div class="invalid-feedback">Category is required.</div>
+</div>
+
   <!-- Add all categories -->
 </select>
 
